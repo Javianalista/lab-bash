@@ -1,0 +1,48 @@
+git clone https://github.com/Javianalista/lab-bash.git
+
+1 echo "Hello World"
+
+2 cd lab-bash
+mkdir new_dir
+
+3 rmdir new_dir
+
+4 cd lorem
+cp sed.txt ../lorem-copy
+
+5 cp lorem.txt ../lorem-copy; cp at.txt ../lorem-copy
+
+6 cat sed.txt
+
+7 cat at.txt;cat lorem.txt
+
+8 cd ../lorem-copy
+head -3 sed.txt
+
+9 tail -3 sed.txt
+
+10 echo "Homo homini lupus" >> sed.txt
+
+11 tail -3 sed.txt
+
+12 cd ../lorem
+sed 's/et/ET/' at.txt
+
+13 whoami
+
+14 pwd
+
+15 find . -type f -iname "*.txt"
+
+16 cat sed.txt | wc -l
+
+17 find . -type f -iname "lorem*" | wc -l
+
+18 read -p "Introduce tu nombre:" nombre
+Introduce tu nombre:Javi
+
+19 echo $nombre
+
+20 mkdir $nombre
+
+21 rmdir $nombre
